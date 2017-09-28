@@ -1,0 +1,2361 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+Process ID: 6584
+
+Current time: 	11/1/15 7:11:44 PM
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/tps/win64/jre
+
+User name: 	DOUYOUZHE
+User directory: C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 479 mb
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// co:P (cg:JFrame):  Opening project 'C:\Users\DOUYOUZHE\Desktop\4444422222111118888\AAAEEESSS\AAAEEESSS.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project {C:\Users\DOUYOUZHE\Desktop\4444422222111118888\AAAEEESSS\AAAEEESSS.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 484 MB. GUI used memory: 27 MB. Current time: 11/1/15 7:11:46 PM
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 52 mb (+51933kb) [00:00:08]
+// [Engine Memory]: 490 mb (+361896kb) [00:00:08]
+// [Engine Memory]: 508 mb (+19808kb) [00:00:09]
+// [GUI Memory]: 71 mb (+20541kb) [00:00:09]
+// [Engine Memory]: 537 mb (+30261kb) [00:00:09]
+// [GUI Memory]: 89 mb (+18839kb) [00:00:10]
+// [Engine Memory]: 582 mb (+47013kb) [00:00:10]
+// [Engine Memory]: 587 mb (+5165kb) [00:00:10]
+// [Engine Memory]: 611 mb (+25096kb) [00:00:12]
+// [GUI Memory]: 96 mb (+7055kb) [00:00:12]
+// [GUI Memory]: 100 mb (+3977kb) [00:00:12]
+// [GUI Memory]: 107 mb (+6960kb) [00:00:12]
+// [GUI Memory]: 111 mb (+4700kb) [00:00:13]
+// Tcl Message: open_project {C:\Users\DOUYOUZHE\Desktop\4444422222111118888\AAAEEESSS\AAAEEESSS.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 960.918 ; gain = 141.234 
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 611 mb (+282kb) [00:00:14]
+dismissDialog("Opening project 'C:\\Users\\DOUYOUZHE\\Desktop\\4444422222111118888\\AAAEEESSS\\AAAEEESSS.xpr'"); // co:P (cg:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 6, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// co:P (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.4 - processing_system7_0 
+// [Engine Memory]: 614 mb (+2813kb) [00:00:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 641 MB. GUI used memory: 46 MB. Current time: 11/1/15 7:12:06 PM
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_tft:2.0 - axi_tft_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_100M Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:user:myip:1.0 - myip_0 Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_mmu:2.1 - s02_mmu Adding component instance block -- xilinx.com:ip:axi_mmu:2.1 - s01_mmu 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 672 mb (+60874kb) [00:00:40]
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 676 mb (+4612kb) [00:00:40]
+// [Engine Memory]: 846 mb (+177397kb) [00:00:44]
+// [Engine Memory]: 846 mb (+712kb) [00:00:44]
+// [Engine Memory]: 855 mb (+8617kb) [00:00:44]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Successfully read diagram <design_1> from BD file <C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/design_1.bd> 
+// HMemoryUtils.trashcanNow. Engine heap size: 855 MB. GUI used memory: 50 MB. Current time: 11/1/15 7:12:23 PM
+// [Engine Memory]: 857 mb (+2908kb) [00:00:44]
+// [Engine Memory]: 861 mb (+3526kb) [00:00:44]
+// [Engine Memory]: 863 mb (+1982kb) [00:00:45]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:20 . Memory (MB): peak = 1174.035 ; gain = 213.117 
+// 'aW' command handler elapsed time: 20 seconds
+// [Engine Memory]: 863 mb (+32kb) [00:00:46]
+// Elapsed time: 20 seconds
+dismissDialog("Open Block Design"); // co:P (cg:JFrame)
+// [Engine Memory]: 863 mb (+233kb) [00:00:50]
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 89, 97, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// h:ae (cg:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, h:ae)
+// co:P (cg:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 887 mb (+25292kb) [00:00:56]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {myip_v1_0_project} -directory {C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project} {c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/component.xml} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project' 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 889 mb (+1957kb) [00:00:57]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [Engine Memory]: 891 mb (+1953kb) [00:00:57]
+// [Engine Memory]: 894 mb (+3018kb) [00:00:58]
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/ip'. 
+// [Engine Memory]: 902 mb (+8564kb) [00:00:58]
+// [Engine Memory]: 906 mb (+4083kb) [00:00:58]
+// 'f' command handler elapsed time: 4 seconds
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 118 mb (+7418kb) [00:00:59]
+// [Engine Memory]: 907 mb (+1028kb) [00:00:59]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Edit in IP Packager"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 912 mb (+5726kb) [00:00:59]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 912 mb (+184kb) [00:01:00]
+// [GUI Memory]: 118 mb (+49kb) [00:01:02]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, false); // u:k (w:JPanel, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 64 MB. Current time: 11/1/15 7:12:41 PM
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bS:c (JPanel:JComponent, B:ae)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "inv_shift_row"); // am:JTextField (JPanel:JComponent, B:ae)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 17 seconds
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: close [ open c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/inv_shift_row.vhd w ] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/inv_shift_row.vhd 
+// E:ae (cg:JFrame): Define Module: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ad:u (m:JViewport, E:ae)
+// [Engine Memory]: 914 mb (+1777kb) [00:01:30]
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // ad:u (m:JViewport, E:ae)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "d_out ; in ; false ; 0 ; 0", 1, "in", 1); // ad:u (m:JViewport, E:ae)
+selectCheckBox((HResource) null, (String) null, true); // h:JCheckBox (ad:u, E:ae): TRUE
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "d_in ; in ; false ; 0 ; 0", 0, "false", 2); // ad:u (m:JViewport, E:ae)
+selectCheckBox((HResource) null, (String) null, true); // h:JCheckBox (ad:u, E:ae): TRUE
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "d_out ; out ; false ; 0 ; 0", 1, "false", 2); // ad:u (m:JViewport, E:ae)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "d_in ; in ; true ; 0 ; 0", 0, "0", 3); // ad:u (m:JViewport, E:ae)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "d_out ; out ; true ; 0 ; 0", 1, "0", 3); // ad:u (m:JViewport, E:ae)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, E:ae)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // E:ae (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_row - Behavioral (inv_shift_row.vhd)]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_row - Behavioral (inv_shift_row.vhd)]", 2, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("inv_shift_row.vhd", 60, 487); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 1065, 350); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 88, 510); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 253 seconds
+selectButton(PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, "6 critical warnings"); // h:k (CommandBar:DockableBar, cg:JFrame)
+// [Engine Memory]: 915 mb (+1642kb) [00:06:35]
+// Elapsed time: 12 seconds
+selectCodeEditor("inv_shift_row.vhd", 14, 425); // aU:J (JPanel:JComponent, cg:JFrame)
+// [Engine Memory]: 925 mb (+9576kb) [00:06:45]
+selectCodeEditor("inv_shift_row.vhd", 14, 425, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectCodeEditor("inv_shift_row.vhd", 118, 427); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 252, 433); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 252, 431, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("inv_shift_row.vhd", 363, 507); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 950 MB. GUI used memory: 64 MB. Current time: 11/1/15 7:19:16 PM
+// [Engine Memory]: 950 mb (+27082kb) [00:07:42]
+// Elapsed time: 43 seconds
+selectCodeEditor("inv_shift_row.vhd", 1071, 351); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 3, 333); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 267, 544); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectCodeEditor("inv_shift_row.vhd", 17, 329); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 365, 316); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("inv_shift_row.vhd", 13, 373); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 14, 350); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("inv_shift_row.vhd", 2, 367); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 387, 310); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 15, 293); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 4, 241); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("inv_shift_row.vhd", 107, 568); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 24, 104); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 253, 393); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("inv_shift_row.vhd", 241, 442); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 375, 291); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 71, 142); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 71, 162); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 190, 371); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 0, 27); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("inv_shift_row.vhd", 36, 123); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 36, 123, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("inv_shift_row.vhd", 197, 387); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 197, 387, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("inv_shift_row.vhd", 155, 447); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 155, 447, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("inv_shift_row.vhd", 30, 148); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 30, 148, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("inv_shift_row.vhd", 68, 480); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 68, 480, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("inv_shift_row.vhd", 244, 403); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 318, 480); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Simulation ;  ;  ;  ;  ; myip_v1_0", 2); // Q:aq (JViewport:JComponent, cg:JFrame)
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1); // Q:aq (JViewport:JComponent, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// co:P (cg:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - myip"); // u:aC
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 950 MB. GUI used memory: 64 MB. Current time: 11/1/15 7:23:08 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 950 MB. GUI used memory: 61 MB. Current time: 11/1/15 7:23:08 PM
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: ipx::update_ip_instances -delete_project true 
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Define Module"); // E:ae (cg:JFrame)
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 85, 107, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 953 mb (+2473kb) [00:11:34]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 953 mb (+155kb) [00:11:34]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 118 mb (+210kb) [00:11:34]
+// [Engine Memory]: 957 mb (+4440kb) [00:11:34]
+// [GUI Memory]: 119 mb (+1013kb) [00:11:34]
+// [GUI Memory]: 119 mb (+12kb) [00:11:34]
+// [Engine Memory]: 957 mb (+77kb) [00:11:34]
+// [GUI Memory]: 120 mb (+1011kb) [00:11:34]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 122 mb (+2025kb) [00:11:34]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 124 mb (+2049kb) [00:11:34]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 126 mb (+2028kb) [00:11:34]
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 18 to revision 19 INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/ip/design_1_myip_0_0/design_1_myip_0_0.upgrade_log'. 
+// TclEventType: RSB_SAVE_DIAGRAM
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 89, 98, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 961 mb (+3878kb) [00:11:36]
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: Wrote  : <C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: ipx::update_ip_instances: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1276.320 ; gain = 0.000 
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// h:ae (cg:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, h:ae)
+// co:P (cg:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {myip_v1_0_project} -directory {C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project} {c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/component.xml} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project' 
+// [Engine Memory]: 961 mb (+339kb) [00:11:39]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [Engine Memory]: 962 mb (+262kb) [00:11:39]
+// [GUI Memory]: 134 mb (+8643kb) [00:11:40]
+// [Engine Memory]: 962 mb (+847kb) [00:11:40]
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// [Engine Memory]: 963 mb (+376kb) [00:11:40]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/ip'. 
+// [GUI Memory]: 136 mb (+2010kb) [00:11:40]
+// 'f' command handler elapsed time: 3 seconds
+// [GUI Memory]: 142 mb (+5701kb) [00:11:40]
+// [Engine Memory]: 965 mb (+2224kb) [00:11:41]
+dismissDialog("Edit in IP Packager"); // co:P (cg:JFrame)
+// [Engine Memory]: 965 mb (+315kb) [00:11:41]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 965 mb (+155kb) [00:11:41]
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 965 mb (+53kb) [00:11:45]
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 966 mb (+884kb) [00:12:14]
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 985 MB. GUI used memory: 77 MB. Current time: 11/1/15 7:24:22 PM
+// Elapsed time: 18 seconds
+selectCodeEditor("myip_v1_0.vhd", 133, 255); // aU:J (JPanel:JComponent, cg:JFrame)
+// [Engine Memory]: 985 mb (+19300kb) [00:12:49]
+selectCodeEditor("myip_v1_0.vhd", 174, 273); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("myip_v1_0.vhd", 173, 523); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+// Elapsed time: 21 seconds
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 27 seconds
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd 
+// Tcl Message: ERROR: [Vivado 12-3630] The destination file 'C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd' already exists, please use -force if you want to overwrite! 
+selectCodeEditor("myip_v1_0.vhd", 154, 250); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // J:v (JViewport:JComponent, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Customization Parameters", 3); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP Customization Parameters Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // J:v (JViewport:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_2 - sbox_inv]", 4, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_2 - sbox_inv]", 4, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_2 - sbox_inv]", 4, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// aR:ae (cg:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ae)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Save Project"); // aR:ae (cg:JFrame)
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// co:P (cg:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - myip"); // u:aC
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 985 MB. GUI used memory: 78 MB. Current time: 11/1/15 7:25:47 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 985 MB. GUI used memory: 74 MB. Current time: 11/1/15 7:25:47 PM
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: ipx::update_ip_instances -delete_project true 
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 19 to revision 20 INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/ip/design_1_myip_0_0/design_1_myip_0_0.upgrade_log'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: Wrote  : <C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: ipx::update_ip_instances: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1302.738 ; gain = 0.000 
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 81, 117, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// h:ae (cg:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, h:ae)
+// co:P (cg:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {myip_v1_0_project} -directory {C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project} {c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/component.xml} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project' 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/ip'. 
+// [GUI Memory]: 142 mb (+524kb) [00:14:21]
+// [GUI Memory]: 146 mb (+3914kb) [00:14:21]
+// 'f' command handler elapsed time: 3 seconds
+dismissDialog("Edit in IP Packager"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 153 mb (+6837kb) [00:14:25]
+// [Engine Memory]: 988 mb (+4026kb) [00:14:25]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+// TclEventType: FILE_SET_CHANGE
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 7 seconds
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd 
+// Tcl Message: ERROR: [Vivado 12-3630] The destination file 'C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd' already exists, please use -force if you want to overwrite! 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 7 seconds
+// [GUI Memory]: 155 mb (+2069kb) [00:14:50]
+// [Engine Memory]: 991 mb (+2768kb) [00:14:50]
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd 
+// Tcl Message: ERROR: [Vivado 12-3630] The destination file 'C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd' already exists, please use -force if you want to overwrite! 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (I:aC, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Templates", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 8, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+// [GUI Memory]: 155 mb (+639kb) [00:17:14]
+// [GUI Memory]: 156 mb (+1116kb) [00:17:25]
+// Elapsed time: 206 seconds
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd");
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_SOURCES_INTO, "Copy sources into IP Directory", false); // h:JCheckBox (JPanel:JComponent, b:g): FALSE
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_SOURCES_INTO, "Copy sources into IP Directory", true); // h:JCheckBox (JPanel:JComponent, b:g): TRUE
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 7 seconds
+// [GUI Memory]: 156 mb (+211kb) [00:18:40]
+// [Engine Memory]: 992 mb (+1024kb) [00:18:40]
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd 
+// Tcl Message: ERROR: [Vivado 12-3630] The destination file 'C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd' already exists, please use -force if you want to overwrite! 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 91 MB. Current time: 11/1/15 7:30:22 PM
+// [Engine Memory]: 1,013 mb (+22228kb) [00:18:47]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go To Source"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bS:c (JPanel:JComponent, B:ae)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "s_box_inv"); // am:JTextField (JPanel:JComponent, B:ae)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 15 seconds
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: close [ open c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd w ] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd 
+// E:ae (cg:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, E:ae)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton("PAResourceAtoD.DefineModulesDialog_ARE_YOU_SURE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // E:ae (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 2); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3, true, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, s_box_inv.vhd]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, s_box_inv.vhd]", 2, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("s_box_inv.vhd", 104, 586); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv - behavioral (s_box_inv.vhd)]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click - Node
+selectCodeEditor("myip_v1_0.vhd", 114, 220); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 144, 228); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("myip_v1_0.vhd", 109, 258); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 109, 258, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("myip_v1_0.vhd", 218, 294); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 223, 312); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 224, 313); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("myip_v1_0.vhd", 250, 348); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 216, 353); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 174, 518); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 151 seconds
+selectCodeEditor("myip_v1_0.vhd", 259, 504); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd. , [Vivado 12-3630] The destination file 'C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd' already exists, please use -force if you want to overwrite!. ]", 16, false); // S:k (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd. , [Vivado 12-3630] The destination file 'C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd' already exists, please use -force if you want to overwrite!. ]", 16, false, false, false, false, false, true); // S:k (JViewport:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("myip_v1_0.vhd", 276, 443); // aU:J (JPanel:JComponent, cg:JFrame)
+selectButton(PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, "2 critical warnings"); // h:k (CommandBar:DockableBar, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 202, 526); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // S:k (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd. ]", 1, true); // S:k (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd. ]", 1, true, false, false, false, false, true); // S:k (JViewport:JComponent, cg:JFrame) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd. ]", 1, true); // S:k (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd. ]", 1, true, false, false, false, false, true); // S:k (JViewport:JComponent, cg:JFrame) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd. , [Vivado 12-3630] The destination file 'C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd' already exists, please use -force if you want to overwrite!. ]", 2, false); // S:k (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("myip_v1_0.vhd", 216, 388); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bS:c (JPanel:JComponent, B:ae)
+// Elapsed time: 79 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "inv_shift_row"); // am:JTextField (JPanel:JComponent, B:ae)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 89 seconds
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: close [ open c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/inv_shift_row.vhd w ] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/inv_shift_row.vhd 
+// E:ae (cg:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, E:ae)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton("PAResourceAtoD.DefineModulesDialog_ARE_YOU_SURE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+dismissDialog("Define Module"); // E:ae (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, inv_shift_row.vhd]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, inv_shift_row.vhd]", 2, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("inv_shift_row.vhd", 261, 554); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 199, 380); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 328, 248); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myip_v1_0.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myip_v1_0.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 183, 466); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 183, 466, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+dismissFileChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bS:c (JPanel:JComponent, B:ae)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "inv_shift_row"); // am:JTextField (JPanel:JComponent, B:ae)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, B:ae)
+// HOptionPane Warning: ''inv_shift_row.vhd' already exists. Please enter another name. (Create Source File)'
+selectButton("PAResourceAtoD.CreateSrcFileDialog_FILE_WITH_SPECIFIED_NAME_ALREADY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+// 'f' command handler elapsed time: 25 seconds
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 582, 215); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_file {} [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_2 - sbox_inv - behavioral (s_box_inv.vhd)]", 4, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("myip_v1_0.vhd", 172, 469); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// at:P (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, at:P)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // I:b
+dismissDialog("Remove Sources"); // at:P (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/inv_shift_row.vhd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bS:c (JPanel:JComponent, B:ae)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "inv_shift_row"); // am:JTextField (JPanel:JComponent, B:ae)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, B:ae)
+// HOptionPane Warning: ''inv_shift_row.vhd' already exists. Please enter another name. (Create Source File)'
+selectButton("PAResourceAtoD.CreateSrcFileDialog_FILE_WITH_SPECIFIED_NAME_ALREADY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 13 seconds
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 484, 386); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 418, 323); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// aR:ae (cg:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ae)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Save Project"); // aR:ae (cg:JFrame)
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1, "VHDL Synthesis", 0, true); // Q:aq (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1, "VHDL Synthesis", 0, true); // Q:aq (JViewport:JComponent, cg:JFrame) - Node
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1); // Q:aq (JViewport:JComponent, cg:JFrame)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1, "VHDL Synthesis", 0, true, false, false, false, false, true); // Q:aq (JViewport:JComponent, cg:JFrame) - Double Click - Node
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+collapseTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1); // Q:aq (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // J:v (JViewport:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// co:P (cg:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - myip"); // u:aC
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 91 MB. Current time: 11/1/15 7:40:57 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 87 MB. Current time: 11/1/15 7:40:57 PM
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: ipx::update_ip_instances -delete_project true 
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Remove Sources"); // at:P (cg:JFrame)
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 102, 108, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 20 to revision 21 INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/ip/design_1_myip_0_0/design_1_myip_0_0.upgrade_log'. 
+// Tcl Message: Wrote  : <C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: ipx::update_ip_instances: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1327.762 ; gain = 0.000 
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// h:ae (cg:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, h:ae)
+// co:P (cg:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {myip_v1_0_project} -directory {C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project} {c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/component.xml} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project' 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/ip'. 
+// 'f' command handler elapsed time: 3 seconds
+dismissDialog("Edit in IP Packager"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 161 mb (+5063kb) [00:29:31]
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: FILE_SET_CHANGE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // J:v (JViewport:JComponent, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+// [GUI Memory]: 164 mb (+2414kb) [00:29:38]
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_CRITICAL_WARNING_MESSAGES, "2 critical warnings"); // h:k (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, IP File Groups Wizard, [IP_Flow 19-530] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': Component file 'myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd' (c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd) does not exist.. ]", 3, false); // S:k (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, IP File Groups Wizard, [IP_Flow 19-530] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': Component file 'myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd' (c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd) does not exist.. ]", 3, false, false, false, false, false, true); // S:k (JViewport:JComponent, cg:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, IP File Groups Wizard, [IP_Flow 19-530] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': Component file 'myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd' (c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd) does not exist.. ]", 4, false); // S:k (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, IP File Groups Wizard, [IP_Flow 19-530] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': Component file 'myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd' (c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd) does not exist.. ]", 4, false, false, false, false, false, true); // S:k (JViewport:JComponent, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/sbox_inv.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 9 seconds
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/sbox_inv.vhd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+// Elapsed time: 16 seconds
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/inv_shift_row.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 21 seconds
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/inv_shift_row.vhd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (inv_shift_row.vhd)]", 7); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (inv_shift_row.vhd)]", 7, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// at:P (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, at:P)
+dismissDialog("Remove Sources"); // at:P (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 169 mb (+6231kb) [00:30:45]
+// Tcl Message: remove_files C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/inv_shift_row.vhd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+dismissFileChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bS:c (JPanel:JComponent, B:ae)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "inv_shift_row"); // am:JTextField (JPanel:JComponent, B:ae)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VHDLSourceFile_small ; 1 ; inv_shift_row.vhd ; xil_defaultlib ; <Local to Project>", 0, "<Local to Project>", 4); // bv:u (JViewport:JComponent, b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 22 seconds
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: close [ open c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/inv_shift_row.vhd w ] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/inv_shift_row.vhd 
+// E:ae (cg:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, E:ae)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton("PAResourceAtoD.DefineModulesDialog_ARE_YOU_SURE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+dismissDialog("Define Module"); // E:ae (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 1,024 mb (+11358kb) [00:31:15]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, inv_shift_row.vhd]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, inv_shift_row.vhd]", 2, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("inv_shift_row.vhd", 261, 474); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 294, 262); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+// Elapsed time: 13 seconds
+selectMenuItem(PAResourceCommand.PACommandNames_IMPORT_ALL_SRCS, "Copy All Files Into Project"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_IMPORT_ALL_SRCS
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 258, 164); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 1,042 mb (+19329kb) [00:32:06]
+// [GUI Memory]: 171 mb (+2031kb) [00:32:06]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,042 MB. GUI used memory: 105 MB. Current time: 11/1/15 7:43:47 PM
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// co:P (cg:JFrame):  IP Packager : addNotify
+// Tcl Message: ipx::open_ipxact_file {c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/imports/myip_1.0/component.xml} 
+dismissDialog("IP Packager"); // co:P (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_CRITICAL_WARNING_MESSAGES, "4 critical warnings"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, IP File Groups Wizard, [IP_Flow 19-530] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': Component file 'myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd' (c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/imports/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd) does not exist.. ]", 3, false); // S:k (JViewport:JComponent, cg:JFrame)
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Simulation ;  ;  ;  ;  ; myip_v1_0", 2); // Q:aq (JViewport:JComponent, cg:JFrame)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd ;  ; vhdlSource ; false ; xilinx_vhdlbehavioralsimulation ; ", 4, "myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd", 0, false); // Q:aq (JViewport:JComponent, cg:JFrame)
+// [Engine Memory]: 1,055 mb (+13205kb) [00:32:31]
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd ;  ; vhdlSource ; false ; xilinx_vhdlbehavioralsimulation ; ", 4, "myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd", 0, false, false, false, false, true, false); // Q:aq (JViewport:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_REMOVE_FILE, "Remove File"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// Tcl Message: ipx::remove_file {myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd} [ipx::get_file_group xilinx_vhdlbehavioralsimulation [ipx::current_core]] 
+// Tcl Message: current_project AAAEEESSS 
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1); // Q:aq (JViewport:JComponent, cg:JFrame)
+// Tcl Message: current_project myip_v1_0_project 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd ;  ; vhdlSource ; false ; xilinx_vhdlsynthesis ; ", 3, "myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd", 0, false, false, false, false, true, false); // Q:aq (JViewport:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_REMOVE_FILE, "Remove File"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// Tcl Message: ipx::remove_file {myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd} [ipx::get_file_group xilinx_vhdlsynthesis [ipx::current_core]] 
+// Tcl Message: current_project AAAEEESSS 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false); // u:k (w:JPanel, cg:JFrame)
+// Tcl Message: current_project myip_v1_0_project 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // S:k (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, Other Messages]", 1); // S:k (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, Other Messages, [IP_Flow 19-3667] Component file 'myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd' does not exist. The file is ignored.. ]", 2, false); // S:k (JViewport:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 388, 422); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_CRITICAL_WARNING_MESSAGES, "2 critical warnings"); // h:k (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, IP File Groups Wizard, [IP_Flow 19-530] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': Component file 'myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd' (c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd) does not exist.. ]", 3, false); // S:k (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, IP File Groups Wizard, [IP_Flow 19-530] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': Component file 'myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd' (c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd) does not exist.. ]", 4, false); // S:k (JViewport:JComponent, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // J:v (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Tcl Message: ipx::current_core {c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/component.xml} 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inv_shift_row.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inv_shift_row.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 69, 238); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 71, 238); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip (2)", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip (2)", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Tcl Message: ipx::current_core {c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/imports/myip_1.0/component.xml} 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click - Node
+selectCodeEditor("myip_v1_0.vhd", 350, 340); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip (2)", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip (2)", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inv_shift_row.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inv_shift_row.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 63, 238); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 63, 238, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myip_v1_0.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myip_v1_0.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 60, 241); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 60, 241, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("myip_v1_0.vhd", 67, 257); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 67, 257, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("myip_v1_0.vhd", 109, 257); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 109, 257, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("myip_v1_0.vhd", 109, 257); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 111, 257, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("myip_v1_0.vhd", 111, 257); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 112, 260); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 95, 256); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 106, 484); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 106, 484, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("myip_v1_0.vhd", 113, 484); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 113, 484, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("myip_v1_0.vhd", 112, 502); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 112, 502, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 277, 304); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_CRITICAL_WARNING_MESSAGES, "2 critical warnings"); // h:k (JPanel:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_WARNING_MESSAGES, "1 warning"); // h:k (JPanel:JComponent, cg:JFrame)
+// [Engine Memory]: 1,058 mb (+3252kb) [00:34:24]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false); // u:k (w:JPanel, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip (2)", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myip (2)", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myip_v1_0.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myip_v1_0.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision {22} [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property ip_repo_paths  {c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/imports/myip_1.0 c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0} [current_fileset] 
+// TclEventType: CREATE_IP_CATALOG
+// co:P (cg:JFrame):  Package IP : addNotify
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, P:JDialog)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+closeMainWindow("myip_v1_0_project - [c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.xpr] - Vivado 2014.2"); // cg:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// co:P (cg:JFrame):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,058 MB. GUI used memory: 100 MB. Current time: 11/1/15 7:46:33 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,058 MB. GUI used memory: 96 MB. Current time: 11/1/15 7:46:34 PM
+// Tcl Message: close_project 
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+dismissDialog("IP Packager"); // co:P (cg:JFrame)
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+dismissDialog("Close Project"); // co:P (cg:JFrame)
+dismissDialog("Close Project"); // co:P (cg:JFrame)
+// Elapsed time: 834 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 92, 106, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// h:ae (cg:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, h:ae)
+// co:P (cg:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {myip_v1_0_project} -directory {C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project} {c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/component.xml} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project' 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/ip'. 
+// 'f' command handler elapsed time: 6 seconds
+dismissDialog("Edit in IP Packager"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_1 - sbox_inv]", 3, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd 
+// Tcl Message: ERROR: [Vivado 12-3630] The destination file 'C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd' already exists, please use -force if you want to overwrite! 
+// Elapsed time: 15 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_CRITICAL_WARNING_MESSAGES, "2 critical warnings"); // h:k (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, IP File Groups Wizard, [IP_Flow 19-530] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': Component file 'myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd' (c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd) does not exist.. ]", 3, false); // S:k (JViewport:JComponent, cg:JFrame)
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1); // Q:aq (JViewport:JComponent, cg:JFrame)
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Simulation ;  ;  ;  ;  ; myip_v1_0", 4); // Q:aq (JViewport:JComponent, cg:JFrame)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd ;  ; vhdlSource ; false ; xilinx_vhdlsynthesis ; ", 2, "myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd", 0, false, false, false, false, true, false); // Q:aq (JViewport:JComponent, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_REMOVE_FILE, "Remove File"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// Tcl Message: ipx::remove_file {myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd} [ipx::get_file_group xilinx_vhdlsynthesis [ipx::current_core]] 
+// Tcl Message: current_project AAAEEESSS 
+// Tcl Message: current_project myip_v1_0_project 
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd ;  ; vhdlSource ; false ; xilinx_vhdlbehavioralsimulation ; ", 4, "myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd", 0, false, false, false, false, true, false); // Q:aq (JViewport:JComponent, cg:JFrame) - Popup Trigger
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectMenu(PAResourceEtoH.FileGroupFacetTable_COPY_TO, "Copy To"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_REMOVE_FILE, "Remove File"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// Tcl Message: ipx::remove_file {myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd} [ipx::get_file_group xilinx_vhdlbehavioralsimulation [ipx::current_core]] 
+// Tcl Message: current_project AAAEEESSS 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SUB_BYTE_0 - sbox_inv]", 2, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+// Tcl Message: current_project myip_v1_0_project 
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 9 seconds
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd 
+// Tcl Message: ERROR: [Vivado 12-3630] The destination file 'C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd' already exists, please use -force if you want to overwrite! 
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // S:k (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, Other Messages]", 1, true); // S:k (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, Other Messages]", 1, true, false, false, false, false, true); // S:k (JViewport:JComponent, cg:JFrame) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, Other Messages, [IP_Flow 19-3667] Component file 'myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/s_box_inv.vhd' does not exist. The file is ignored.. ]", 3, false); // S:k (JViewport:JComponent, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// co:P (cg:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - myip"); // u:aC
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,058 MB. GUI used memory: 101 MB. Current time: 11/1/15 8:02:34 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,058 MB. GUI used memory: 95 MB. Current time: 11/1/15 8:02:34 PM
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: ipx::update_ip_instances -delete_project true 
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 21 to revision 22 INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/ip/design_1_myip_0_0/design_1_myip_0_0.upgrade_log'. 
+// Tcl Message: Wrote  : <C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: ipx::update_ip_instances: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1391.434 ; gain = 0.000 
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 86, 110, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// h:ae (cg:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, h:ae)
+// co:P (cg:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {myip_v1_0_project} -directory {C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project} {c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/component.xml} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project' 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/ip'. 
+// 'f' command handler elapsed time: 3 seconds
+dismissDialog("Edit in IP Packager"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 12 seconds
+// [GUI Memory]: 171 mb (+37kb) [00:51:47]
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd 
+// Tcl Message: ERROR: [Vivado 12-3630] The destination file 'C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/sbox_inv.vhd' already exists, please use -force if you want to overwrite! 
+// Elapsed time: 44 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// co:P (cg:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - myip"); // u:aC
+// TclEventType: PROJECT_CLOSE
+// [GUI Memory]: 175 mb (+3972kb) [00:52:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,058 MB. GUI used memory: 109 MB. Current time: 11/1/15 8:04:14 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,058 MB. GUI used memory: 96 MB. Current time: 11/1/15 8:04:15 PM
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: ipx::update_ip_instances -delete_project true 
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 22 to revision 23 INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/ip/design_1_myip_0_0/design_1_myip_0_0.upgrade_log'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,063 mb (+4931kb) [00:52:41]
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: Wrote  : <C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: ipx::update_ip_instances: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1391.434 ; gain = 0.000 
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,063 mb (+45kb) [00:52:47]
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 72, 102, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// h:ae (cg:JFrame): Edit in IP Packager: addNotify
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, h:ae)
+// co:P (cg:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {myip_v1_0_project} -directory {C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project} {c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/component.xml} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project' 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/ip'. 
+// 'f' command handler elapsed time: 17 seconds
+dismissDialog("Edit in IP Packager"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/New folder/sbox_inv.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 12 seconds
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src {{C:/Users/DOUYOUZHE/Desktop/New folder/sbox_inv.vhd}} 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+// Elapsed time: 10 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/New folder/inv_shift_row.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 22 seconds
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src {{C:/Users/DOUYOUZHE/Desktop/New folder/inv_shift_row.vhd}} 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (inv_shift_row.vhd)]", 7); // u:k (w:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (inv_shift_row.vhd)]", 7); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 8); // u:k (w:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 8); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (inv_shift_row.vhd)]", 7, true); // u:k (w:JPanel, cg:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (inv_shift_row.vhd)]", 7); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (inv_shift_row.vhd)]", 7, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// at:P (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, at:P)
+dismissDialog("Remove Sources"); // at:P (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/inv_shift_row.vhd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+// [GUI Memory]: 176 mb (+514kb) [00:54:22]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 120 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/New folder/inv_shift_row.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src {{C:/Users/DOUYOUZHE/Desktop/New folder/inv_shift_row.vhd}} 
+// [GUI Memory]: 180 mb (+4558kb) [00:56:29]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// [Engine Memory]: 1,069 mb (+6340kb) [00:56:36]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// [Engine Memory]: 1,070 mb (+1507kb) [00:56:39]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// at:P (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, at:P)
+// 'c' command handler elapsed time: 4 seconds
+dismissDialog("Remove Sources"); // at:P (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src/inv_shift_row.vhd 
+// [GUI Memory]: 183 mb (+3164kb) [00:56:50]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 9, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+dismissFileChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // a:JButton (JPanel:JComponent, b:g)
+// B:ae (b:g): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bS:c (JPanel:JComponent, B:ae)
+// Elapsed time: 10 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "inv_shift_row"); // am:JTextField (JPanel:JComponent, B:ae)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, B:ae)
+dismissDialog("Create Source File"); // B:ae (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 19 seconds
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// Tcl Message: close [ open c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/inv_shift_row.vhd w ] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.srcs/sources_1/new/inv_shift_row.vhd 
+// E:ae (cg:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, E:ae)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton("PAResourceAtoD.DefineModulesDialog_ARE_YOU_SURE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // E:ae (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, inv_shift_row.vhd]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, inv_shift_row.vhd]", 2, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// [GUI Memory]: 185 mb (+2274kb) [00:57:49]
+selectCodeEditor("inv_shift_row.vhd", 180, 538); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 181, 512); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("inv_shift_row.vhd", 521, 208); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 0, 215); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 419, 385); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("inv_shift_row.vhd", 266, 274); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click - Node
+// [GUI Memory]: 185 mb (+139kb) [00:58:27]
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inv_shift_row.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "inv_shift_row.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 55, 391); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("inv_shift_row.vhd", 55, 391, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myip_v1_0.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myip_v1_0.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 103, 485); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 111, 483); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 111, 483, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("myip_v1_0.vhd", 117, 501); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 117, 501, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("myip_v1_0.vhd", 159, 510); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 161, 508); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// aR:ae (cg:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ae)
+// [GUI Memory]: 186 mb (+1149kb) [00:59:26]
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Save Project"); // aR:ae (cg:JFrame)
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// [Engine Memory]: 1,071 mb (+315kb) [00:59:28]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Simulation ;  ;  ;  ;  ; myip_v1_0", 2); // Q:aq (JViewport:JComponent, cg:JFrame)
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1); // Q:aq (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false); // u:k (w:JPanel, cg:JFrame)
+// [GUI Memory]: 189 mb (+3061kb) [00:59:35]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd), INV_SHIFT_ROW_0 - inv_shift_row]", 6, false); // u:k (w:JPanel, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,073 mb (+2678kb) [00:59:35]
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// [Engine Memory]: 1,074 mb (+413kb) [00:59:52]
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_file {} [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 191 mb (+2098kb) [00:59:52]
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+// [Engine Memory]: 1,074 mb (+249kb) [01:00:00]
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 1,080 mb (+6320kb) [01:00:10]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,086 MB. GUI used memory: 121 MB. Current time: 11/1/15 8:11:52 PM
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// [Engine Memory]: 1,086 mb (+6270kb) [01:00:20]
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top inv_shift_rows [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top myip_v1_0 [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, inv_shift_rows - beh (inv_shift_row.vhd)]", 7, false); // u:k (w:JPanel, cg:JFrame)
+// Elapsed time: 15 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// co:P (cg:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - myip"); // u:aC
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,086 MB. GUI used memory: 108 MB. Current time: 11/1/15 8:12:29 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,086 MB. GUI used memory: 104 MB. Current time: 11/1/15 8:12:29 PM
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: ipx::update_ip_instances -delete_project true 
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Create Source File"); // B:ae (b:g)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 76, 105, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 23 to revision 24 INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/ip/design_1_myip_0_0/design_1_myip_0_0.upgrade_log'. 
+// Tcl Message: Wrote  : <C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: ipx::update_ip_instances: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1412.527 ; gain = 0.000 
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// h:ae (cg:JFrame): Edit in IP Packager: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, h:ae)
+// co:P (cg:JFrame):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name {myip_v1_0_project} -directory {C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project} {c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/component.xml} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0/myip_v1_0_project' 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/ip'. 
+// 'f' command handler elapsed time: 3 seconds
+dismissDialog("Edit in IP Packager"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1); // u:k (w:JPanel, cg:JFrame)
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, true, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click - Node
+selectCodeEditor("myip_v1_0.vhd", 120, 354); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 215, 307); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("myip_v1_0.vhd", 152, 522); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 275, 499); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 143, 519); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("myip_v1_0.vhd", 116, 396); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sbox_inv - behavioral (sbox_inv.vhd)]", 2, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sbox_inv - behavioral (sbox_inv.vhd)]", 2, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/New folder/inv_shift_row.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 7 seconds
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src {{C:/Users/DOUYOUZHE/Desktop/New folder/inv_shift_row.vhd}} 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myip_v1_0 - EXAMPLE (myip_v1_0.vhd)]", 1, false, false, false, false, true, false); // u:k (w:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (JPanel:JComponent, b:g)
+setFileChooser("C:/Users/DOUYOUZHE/Desktop/New folder/inv_mix_column.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to C:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0/src {{C:/Users/DOUYOUZHE/Desktop/New folder/inv_mix_column.vhd}} 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sbox_inv - behavioral (sbox_inv.vhd)]", 4, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 4, false); // w:X (v:w, cg:JFrame)
+// co:P (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP File Groups", 2); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1); // Q:aq (JViewport:JComponent, cg:JFrame)
+collapseTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ;  ;  ; myip_v1_0", 1); // Q:aq (JViewport:JComponent, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Customization Parameters", 3); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from IP Customization Parameters Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Ports and Interfaces", 4); // J:v (JViewport:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP Addressing and Memory", 5); // J:v (JViewport:JComponent, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "IP GUI Customization", 6); // J:v (JViewport:JComponent, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // J:v (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// co:P (cg:JFrame):  Package IP : addNotify
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - myip"); // u:aC
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,086 MB. GUI used memory: 120 MB. Current time: 11/1/15 8:15:12 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,086 MB. GUI used memory: 107 MB. Current time: 11/1/15 8:15:12 PM
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: ipx::update_ip_instances -delete_project true 
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Add Sources"); // b:g (cg:JFrame)
+dismissDialog("Open Project Manager"); // co:P (cg:JFrame)
+dismissDialog("Package IP"); // co:P (cg:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 97, 116, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/douyouzhe/desktop/4444422222111118888/ip_repo/myip_1.0'. 
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ag:JPopupMenu, cg:JFrame)
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_SCRIPT_TASK
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 105, 106, 1308, 617, false, false, false, true, false); // dd:aC (TdiGroup:JideTabbedPane, cg:JFrame) - Popup Trigger
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,090 mb (+4235kb) [01:03:38]
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_myip_0_0 (myip_v1.0 1.0) from revision 24 to revision 25 INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/ip/design_1_myip_0_0/design_1_myip_0_0.upgrade_log'. 
+// Tcl Message: Wrote  : <C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: ipx::update_ip_instances: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1412.527 ; gain = 0.000 
+dismissDialog("Package IP"); // co:P (cg:JFrame)

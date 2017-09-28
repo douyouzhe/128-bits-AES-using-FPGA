@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_decoder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_decoder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="37" />
+   <wvobject db_ref_id="1" fp_name="/test_decoder/ACLK" type="logic">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/ARESETN" type="logic">
+      <obj_property name="ElementShortName">ARESETN</obj_property>
+      <obj_property name="ObjectShortName">ARESETN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/S_AXIS_TREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/S_AXIS_TDATA" type="array">
+      <obj_property name="ElementShortName">S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/S_AXIS_TLAST" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/S_AXIS_TVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/M_AXIS_TVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/M_AXIS_TDATA" type="array">
+      <obj_property name="ElementShortName">M_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/M_AXIS_TLAST" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/M_AXIS_TREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/ACLK" type="logic">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/ARESETN" type="logic">
+      <obj_property name="ElementShortName">ARESETN</obj_property>
+      <obj_property name="ObjectShortName">ARESETN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/S_AXIS_TREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/S_AXIS_TDATA" type="array">
+      <obj_property name="ElementShortName">S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/S_AXIS_TLAST" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/S_AXIS_TVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/M_AXIS_TVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/M_AXIS_TDATA" type="array">
+      <obj_property name="ElementShortName">M_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/M_AXIS_TLAST" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/M_AXIS_TREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/Key_round" type="other">
+      <obj_property name="ElementShortName">Key_round</obj_property>
+      <obj_property name="ObjectShortName">Key_round</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/my_data" type="array">
+      <obj_property name="ElementShortName">my_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">my_data[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/my_key" type="array">
+      <obj_property name="ElementShortName">my_key[255:0]</obj_property>
+      <obj_property name="ObjectShortName">my_key[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/my_temp" type="array">
+      <obj_property name="ElementShortName">my_temp[255:0]</obj_property>
+      <obj_property name="ObjectShortName">my_temp[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/my_temp1" type="array">
+      <obj_property name="ElementShortName">my_temp1[255:0]</obj_property>
+      <obj_property name="ObjectShortName">my_temp1[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/my_temp2" type="array">
+      <obj_property name="ElementShortName">my_temp2[255:0]</obj_property>
+      <obj_property name="ObjectShortName">my_temp2[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/my_temp3" type="array">
+      <obj_property name="ElementShortName">my_temp3[255:0]</obj_property>
+      <obj_property name="ObjectShortName">my_temp3[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/my_temp4" type="array">
+      <obj_property name="ElementShortName">my_temp4[255:0]</obj_property>
+      <obj_property name="ObjectShortName">my_temp4[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/my_temp5" type="array">
+      <obj_property name="ElementShortName">my_temp5[255:0]</obj_property>
+      <obj_property name="ObjectShortName">my_temp5[255:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/nr_of_reads" type="other">
+      <obj_property name="ElementShortName">nr_of_reads</obj_property>
+      <obj_property name="ObjectShortName">nr_of_reads</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/nr_of_writes" type="other">
+      <obj_property name="ElementShortName">nr_of_writes</obj_property>
+      <obj_property name="ObjectShortName">nr_of_writes</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/NUMBER_OF_INPUT_WORDS" type="other">
+      <obj_property name="ElementShortName">NUMBER_OF_INPUT_WORDS</obj_property>
+      <obj_property name="ObjectShortName">NUMBER_OF_INPUT_WORDS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/NUMBER_OF_OUTPUT_WORDS" type="other">
+      <obj_property name="ElementShortName">NUMBER_OF_OUTPUT_WORDS</obj_property>
+      <obj_property name="ObjectShortName">NUMBER_OF_OUTPUT_WORDS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/Rcon" type="array">
+      <obj_property name="ElementShortName">Rcon[0:9][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Rcon[0:9][7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_decoder/uut/sbox" type="array">
+      <obj_property name="ElementShortName">sbox[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">sbox[0:255][7:0]</obj_property>
+   </wvobject>
+</wave_config>

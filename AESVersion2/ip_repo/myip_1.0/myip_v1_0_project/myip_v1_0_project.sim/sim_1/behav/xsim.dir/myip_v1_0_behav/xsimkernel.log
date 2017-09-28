@@ -1,0 +1,5 @@
+Running: xsim.dir/myip_v1_0_behav/xsimk.exe -simmode gui -wdb myip_v1_0_behav.wdb -simrunnum 0 -socket 23537
+Design successfully loaded
+Design Loading CPU Usage: 139 ms
+Simulation completed
+Simulation CPU Usage: 139 ms

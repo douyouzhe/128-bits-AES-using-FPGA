@@ -1,0 +1,181 @@
+#include "xaxidma.h"
+#include "xparameters.h"
+#include "xdebug.h"
+
+
+
+#define DMA_DEV_ID        XPAR_AXIDMA_0_DEVICE_ID
+#define DDR_BASE_ADDR        XPAR_DDR_MEM_BASEADDR
+
+#ifndef DDR_BASE_ADDR
+#warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  DEFAULT SET TO 0x01000000
+#define MEM_BASE_ADDR        0x01000000
+#else
+#define MEM_BASE_ADDR        (DDR_BASE_ADDR + 0x1000000)
+#endif
+
+#define TX_BUFFER_BASE        (MEM_BASE_ADDR + 0x00100000)
+#define RX_BUFFER_BASE        (MEM_BASE_ADDR + 0x00300000)
+#define RX_BUFFER_HIGH        (MEM_BASE_ADDR + 0x004FFFFF)
+
+#define NUMBER_OF_WORDS     8
+#define NUMBER_OF_BYTES         NUMBER_OF_WORDS * 4
+
+#define NUMBER_OF_TRANSFERS    NUMBER_OF_WORDS / 4
+
+
+
+#if (!defined(DEBUG))
+extern void xil_printf(const char *format, ...);
+#endif
+
+int XAxiDma_SimplePollExample(u16 DeviceId);
+static int CheckData(u32 cur_indx);
+XAxiDma AxiDma;
+
+int main()
+{
+  int Status;
+
+  xil_printf("\r\n--- Entering main() --- \r\n");
+
+  /* Run the poll example for simple transfer */
+  Status = XAxiDma_SimplePollExample(DMA_DEV_ID);
+
+  if (Status != XST_SUCCESS) {
+
+    xil_printf("XAxiDma_SimplePollExample: Failed\r\n");
+    return XST_FAILURE;
+  }
+
+  xil_printf("XAxiDma_SimplePollExample: Passed\r\n");
+
+  xil_printf("--- Exiting main() --- \r\n");
+
+  return XST_SUCCESS;
+
+}
+
+
+int XAxiDma_SimplePollExample(u16 DeviceId)
+{
+  XAxiDma_Config *CfgPtr;
+  int Status;
+  u32 Index;
+  u32 *TxBufferPtr;
+  u32 *RxBufferPtr;
+  u32 Value;
+
+
+  TxBufferPtr = (u32 *)TX_BUFFER_BASE ;
+  RxBufferPtr = (u32 *)RX_BUFFER_BASE;
+
+  /* Initialize the XAxiDma device.
+   */
+  CfgPtr = XAxiDma_LookupConfig(DeviceId);
+  if (!CfgPtr) {
+    xil_printf("No config found for %d\r\n", DeviceId);
+    return XST_FAILURE;
+  }
+  xil_printf("Found config for AXI DMA\n\r");
+
+  Status = XAxiDma_CfgInitialize(&AxiDma, CfgPtr);
+  if (Status != XST_SUCCESS) {
+    xil_printf("Initialization failed %d\r\n", Status);
+    return XST_FAILURE;
+  }
+  xil_printf("Finish initializing configurations for AXI DMA\n\r");
+
+  if(XAxiDma_HasSg(&AxiDma)){
+    xil_printf("Device configured as SG mode \r\n");
+    return XST_FAILURE;
+  }
+  xil_printf("AXI DMA is configured as Simple Transfer mode\n\r");
+
+  /* Disable interrupts, we use polling mode
+   */
+  XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+      XAXIDMA_DEVICE_TO_DMA);
+  XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+      XAXIDMA_DMA_TO_DEVICE);
+
+      TxBufferPtr[0] = 0xFFFFFFFF;
+      TxBufferPtr[1] = 0xEEEEEEEE;
+      TxBufferPtr[2] = 0x11111111;
+      TxBufferPtr[3] = 0x33333333;
+
+
+
+      TxBufferPtr[4] = 0x88888888;
+      TxBufferPtr[5] = 0x66666666;
+      TxBufferPtr[6] = 0xAAAAAAAA;
+      TxBufferPtr[7] = 0x99999999;
+
+  Xil_DCacheFlushRange((u32)TxBufferPtr, NUMBER_OF_BYTES);
+
+  for(Index = 0; Index < NUMBER_OF_TRANSFERS; Index ++) {
+
+	    Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) (TxBufferPtr + Index * 4),
+	    		4 * 4, XAXIDMA_DMA_TO_DEVICE);
+
+	    if (Status != XST_SUCCESS) {
+	      return XST_FAILURE;
+	    }
+
+
+
+	  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) (RxBufferPtr + Index * 4),
+    		4 * 4, XAXIDMA_DEVICE_TO_DMA);
+
+    if (Status != XST_SUCCESS) {
+      return XST_FAILURE;
+    }
+
+
+//    Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) (TxBufferPtr + Index * 4),
+//    		8 * 4, XAXIDMA_DMA_TO_DEVICE);
+//
+//    if (Status != XST_SUCCESS) {
+//      return XST_FAILURE;
+//    }
+
+    xil_printf("Waiting for AXI DMA \n\r");
+
+    while (XAxiDma_Busy(&AxiDma,XAXIDMA_DMA_TO_DEVICE)) {
+    	//wait
+    }
+    xil_printf("DMA_TO_DEVICE finishes \n\r");
+
+    while (XAxiDma_Busy(&AxiDma,XAXIDMA_DEVICE_TO_DMA)) {
+      //wait
+    }
+    xil_printf("DEVICE_TO_DMA finishes \n\r");
+
+    Status = CheckData(Index);
+    if (Status != XST_SUCCESS) {
+      return XST_FAILURE;
+    }
+
+  }
+
+
+  return XST_SUCCESS;
+}
+
+static int CheckData(u32 cur_indx)
+{
+  u32 *RxPacket;
+  int Index = 0;
+
+  RxPacket = (u32 *) (RX_BUFFER_BASE + cur_indx * 4 * 4);
+
+
+  Xil_DCacheInvalidateRange((u32)RxPacket, NUMBER_OF_BYTES);
+
+  for(Index = 0; Index < 4; Index++) {
+      xil_printf("Data %d: %x\r\n", Index, (unsigned int)RxPacket[Index]);
+  }
+
+  return XST_SUCCESS;
+}

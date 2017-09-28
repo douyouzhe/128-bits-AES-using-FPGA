@@ -1,0 +1,5 @@
+vhdl xil_defaultlib "c:/users/douyouzhe/desktop/aes256version/ip_repo/myip_1.0/src/inv_s_box.vhd"
+vhdl xil_defaultlib "c:/users/douyouzhe/desktop/aes256version/ip_repo/myip_1.0/src/inv_shift.vhd"
+vhdl xil_defaultlib "c:/users/douyouzhe/desktop/aes256version/ip_repo/myip_1.0/src/inv_mix.vhd"
+vhdl xil_defaultlib "c:/users/douyouzhe/desktop/aes256version/ip_repo/myip_1.0/hdl/myip_v1_0.vhd"
+verilog xil_defaultlib "C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v"

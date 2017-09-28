@@ -1,0 +1,582 @@
+20:01:12 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+20:05:54 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:06:27 INFO  : ps7_init is completed.
+20:06:27 INFO  : ps7_post_config is completed.
+20:06:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:09:37 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:17:58 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+02:17:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+02:18:15 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:20:50 INFO  : ps7_init is completed.
+02:20:50 INFO  : ps7_post_config is completed.
+02:20:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:22:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:24:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+03:03:32 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+03:03:32 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+03:03:34 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1445972525856,  Project:1445947164393
+03:03:34 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+03:03:34 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+03:05:08 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:06:17 INFO  : 
+03:06:18 INFO  : Updating hardware inferred compiler options for AES.
+03:06:18 INFO  : Clearing existing target manager status.
+03:07:26 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+03:09:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:11:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:11:36 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+03:11:42 INFO  : ps7_init is completed.
+03:11:42 INFO  : ps7_post_config is completed.
+03:11:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:12:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:12:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:14:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:14:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:14:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:14:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:15:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:15:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:16:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:16:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:17:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:19:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:20:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:20:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:20:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:21:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:27:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:28:14 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+03:28:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:28:24 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1153)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:431)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+03:28:37 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+03:28:43 INFO  : ps7_init is completed.
+03:28:43 INFO  : ps7_post_config is completed.
+03:28:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:29:35 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+03:29:35 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:34:10 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+02:34:14 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+02:34:30 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446316190740,  Project:1445972525856
+02:34:30 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+02:34:30 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+02:36:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:38:14 INFO  : 
+02:38:16 INFO  : Updating hardware inferred compiler options for AES.
+02:38:16 INFO  : Clearing existing target manager status.
+02:38:33 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:38:42 INFO  : ps7_init is completed.
+02:38:42 INFO  : ps7_post_config is completed.
+02:38:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:44:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:45:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:49:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:49:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+03:23:32 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+03:23:34 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+03:23:49 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446319390282,  Project:1446316190740
+03:23:49 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+03:23:49 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+03:25:40 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:26:38 INFO  : 
+03:26:39 INFO  : Updating hardware inferred compiler options for AES.
+03:26:39 INFO  : Clearing existing target manager status.
+03:29:49 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+03:33:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:03:18 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+04:03:18 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:386)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:297)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:245)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+04:03:30 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+04:03:38 INFO  : ps7_init is completed.
+04:03:38 INFO  : ps7_post_config is completed.
+04:03:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:03:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:04:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:04:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+04:39:34 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+04:39:34 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+04:39:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446323943801,  Project:1446319390282
+04:39:38 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+04:39:38 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+04:42:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+04:44:30 INFO  : 
+04:44:31 INFO  : Updating hardware inferred compiler options for AES.
+04:44:31 INFO  : Clearing existing target manager status.
+04:44:52 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+04:44:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:46:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:46:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:46:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:50:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:51:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:53:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:53:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:53:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:54:29 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:14:33 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+16:14:33 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:14:37 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446365633906,  Project:1446323943801
+16:14:37 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+16:14:37 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:17:11 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:18:29 INFO  : 
+16:18:31 INFO  : Updating hardware inferred compiler options for AES.
+16:18:31 INFO  : Clearing existing target manager status.
+16:18:45 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:18:53 INFO  : ps7_init is completed.
+16:18:53 INFO  : ps7_post_config is completed.
+16:18:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:19:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:19:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:21:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:51:06 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+16:51:07 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:51:07 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446367834935,  Project:1446365633906
+16:51:07 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+16:51:07 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:51:09 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:52:57 INFO  : 
+16:52:58 INFO  : Updating hardware inferred compiler options for AES.
+16:52:58 INFO  : Clearing existing target manager status.
+16:53:23 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:53:29 INFO  : ps7_init is completed.
+16:53:29 INFO  : ps7_post_config is completed.
+16:53:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:53:37 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:06:37 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+18:06:38 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:06:39 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446372343369,  Project:1446367834935
+18:06:39 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+18:06:39 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+18:09:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:10:06 INFO  : 
+18:10:07 INFO  : Updating hardware inferred compiler options for AES.
+18:10:07 INFO  : Clearing existing target manager status.
+18:10:53 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:11:01 INFO  : ps7_init is completed.
+18:11:01 INFO  : ps7_post_config is completed.
+18:11:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:12:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:12:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:12:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:20:48 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+21:20:49 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:20:50 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446383985924,  Project:1446372343369
+21:20:50 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+21:20:50 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:23:30 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:25:03 INFO  : 
+21:25:04 INFO  : Updating hardware inferred compiler options for AES.
+21:25:04 INFO  : Clearing existing target manager status.
+21:25:26 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:26:07 INFO  : ps7_init is completed.
+21:26:07 INFO  : ps7_post_config is completed.
+21:26:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:26:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:27:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:28:45 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:15:52 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+23:15:56 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:16:16 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446477260823,  Project:1446383985924
+23:16:16 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+23:16:16 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:18:43 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:20:11 INFO  : 
+23:20:12 INFO  : Updating hardware inferred compiler options for AES.
+23:20:12 INFO  : Clearing existing target manager status.
+23:22:46 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:22:56 INFO  : ps7_init is completed.
+23:22:56 INFO  : ps7_post_config is completed.
+23:22:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:22:56 ERROR : No such port: COM5
+23:24:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:24:38 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+23:24:38 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:25:15 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:25:27 INFO  : ps7_init is completed.
+23:25:27 INFO  : ps7_post_config is completed.
+23:25:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:25:27 ERROR : No such port: COM5
+23:25:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:33:27 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+23:33:30 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:34:22 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:39:14 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+23:39:14 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:386)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:297)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:245)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+23:39:50 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:39:56 INFO  : ps7_init is completed.
+23:39:56 INFO  : ps7_post_config is completed.
+23:39:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:39:56 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:1027)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+23:44:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:45:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:47:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:48:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:48:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:49:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:49:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:43:09 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+00:43:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+00:43:11 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446482461490,  Project:1446477260823
+00:43:11 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+00:43:11 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+00:44:39 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:45:56 INFO  : 
+00:45:57 INFO  : Updating hardware inferred compiler options for AES.
+00:45:57 INFO  : Clearing existing target manager status.
+00:49:25 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:49:30 INFO  : ps7_init is completed.
+00:49:31 INFO  : ps7_post_config is completed.
+00:49:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:49:36 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:39:30 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+02:39:32 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+02:41:01 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:41:37 ERROR :  License Feature SDK is not available.
+02:43:21 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+02:43:21 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+02:43:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:44:00 ERROR : No such port: COM3
+02:44:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:44:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:44:45 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:45:00 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:45:08 INFO  : ps7_init is completed.
+02:45:08 INFO  : ps7_post_config is completed.
+02:45:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:45:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:45:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:46:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:46:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:47:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:49:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:49:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:55:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:55:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:58:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:58:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:59:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:00:12 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+03:00:45 INFO  : ps7_init is completed.
+03:00:45 INFO  : ps7_post_config is completed.
+03:00:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:10:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:13:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:13:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:13:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:15:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:15:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:21:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:57:16 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+13:57:17 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:57:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446962154648,  Project:1446482461490
+13:57:17 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+13:57:17 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+13:58:56 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:00:16 INFO  : 
+14:00:17 INFO  : Updating hardware inferred compiler options for AES.
+14:00:17 INFO  : Clearing existing target manager status.
+14:00:20 INFO  : Closing and re-opening the MSS file of ther project AES_bsp
+14:00:20 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:05:33 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:06:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:08:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:08:39 ERROR : Port COM8 is already in use.
+14:09:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:09:08 ERROR : Port COM8 is already in use.
+14:13:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:13:10 ERROR : Port COM8 is already in use.
+14:14:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:16:43 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+14:16:44 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:17:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:17:24 ERROR : Port COM8 is already in use.
+14:18:29 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:19:25 INFO  : ps7_init is completed.
+14:19:25 INFO  : ps7_post_config is completed.
+14:19:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:19:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:19:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:20:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:54:04 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:54:26 INFO  : ps7_init is completed.
+14:54:26 INFO  : ps7_post_config is completed.
+14:54:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:57:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:57:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:58:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:58:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:03:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:05:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:48:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:35:30 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+23:35:35 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:35:55 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1446996900787,  Project:1446962154648
+23:35:55 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+23:35:55 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:37:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:39:09 INFO  : 
+23:39:10 INFO  : Updating hardware inferred compiler options for AES.
+23:39:10 INFO  : Clearing existing target manager status.
+23:39:50 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:41:15 INFO  : ps7_init is completed.
+23:41:16 INFO  : ps7_post_config is completed.
+23:41:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:43:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:45:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:46:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:50:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:50:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:56:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:59:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:02:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:02:33 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:08:17 INFO  : ps7_init is completed.
+00:08:17 INFO  : ps7_post_config is completed.
+00:08:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:40:13 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:40:26 INFO  : ps7_init is completed.
+00:40:26 INFO  : ps7_post_config is completed.
+00:40:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:45:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:55:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:56:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:56:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:57:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:01:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:11:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:21:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:24:33 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:25:17 INFO  : ps7_init is completed.
+01:25:17 INFO  : ps7_post_config is completed.
+01:25:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:27:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:30:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:34:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:35:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:37:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:37:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:38:16 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:38:25 INFO  : ps7_init is completed.
+01:38:26 INFO  : ps7_post_config is completed.
+01:38:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:42:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:43:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:45:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:46:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:47:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:48:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:48:42 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:48:53 INFO  : ps7_init is completed.
+01:48:53 INFO  : ps7_post_config is completed.
+01:48:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:49:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:50:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:35:36 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1447007720356,  Project:1446996900787
+02:35:36 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+02:35:47 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+02:35:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:36:03 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+02:37:48 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:37:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:38:29 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+02:38:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:39:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:39:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:51:24 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+03:05:52 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+03:05:52 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+03:05:53 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1447009531899,  Project:1447007720356
+03:05:53 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+03:05:53 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+03:05:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:05:54 INFO  : Clearing existing target manager status.
+03:05:56 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+03:22:00 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+03:22:23 INFO  : ps7_init is completed.
+03:22:23 INFO  : ps7_post_config is completed.
+03:22:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:23:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:24:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:05:34 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:04:17 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+10:04:17 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+10:04:18 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1447034623859,  Project:1447009531899
+10:04:18 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+10:04:18 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+10:04:19 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:04:20 INFO  : Clearing existing target manager status.
+10:04:22 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:05:13 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+10:06:39 INFO  : ps7_init is completed.
+10:06:39 INFO  : ps7_post_config is completed.
+10:06:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:11:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:11:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:17:10 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:17:21 INFO  : ps7_init is completed.
+10:17:21 INFO  : ps7_post_config is completed.
+10:17:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:19:49 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+10:20:12 INFO  : ps7_init is completed.
+10:20:12 INFO  : ps7_post_config is completed.
+10:20:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:21:19 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:21:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:23:02 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+10:23:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:24:52 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+20:24:52 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+02:43:46 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+02:43:50 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+02:44:11 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1447180982127,  Project:1447034623859
+02:44:11 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+02:44:11 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+02:45:39 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:45:39 INFO  : Clearing existing target manager status.
+02:45:43 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+02:46:28 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+02:47:22 INFO  : ps7_init is completed.
+02:47:22 INFO  : ps7_post_config is completed.
+02:47:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:49:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:54:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:54:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:57:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:57:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+02:57:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:57:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:01:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:02:46 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+03:02:52 INFO  : ps7_init is completed.
+03:02:52 INFO  : ps7_post_config is completed.
+03:02:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:03:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:04:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:04:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:23:29 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+04:37:09 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+04:37:09 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+04:37:11 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1447187791239,  Project:1447180982127
+04:37:11 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+04:37:11 INFO  : Copied contents of C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+04:37:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+04:37:12 INFO  : Clearing existing target manager status.
+04:37:15 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+04:37:50 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/4444422222111118888/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+04:38:00 INFO  : ps7_init is completed.
+04:38:01 INFO  : ps7_post_config is completed.
+04:38:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:38:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:38:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:40:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:41:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:46:10 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:24:18 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/AES256Version/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+09:42:53 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+09:43:03 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/AES256Version/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+09:43:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:51:11 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/AES256Version/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_2/design_1_wrapper.bit"
+09:52:05 INFO  : ps7_init is completed.
+09:52:05 INFO  : ps7_post_config is completed.
+09:52:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:56:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:56:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:57:07 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/AES256Version/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_2/design_1_wrapper.bit"
+09:57:18 INFO  : ps7_init is completed.
+09:57:18 INFO  : ps7_post_config is completed.
+09:57:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:16:17 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/AES256Version/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_2/design_1_wrapper.bit"
+10:16:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:09:10 INFO  : Processing command line option -hwspec C:/Users/DOUYOUZHE/Desktop/AES256Version/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper.hdf.
+11:09:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_2.
+11:09:21 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:09:33 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/AES256Version/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_2/design_1_wrapper.bit"
+11:09:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:22:47 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/AES256Version/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_2/design_1_wrapper.bit"
+11:22:54 INFO  : ps7_init is completed.
+11:22:54 INFO  : ps7_post_config is completed.
+11:22:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:49:46 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/AES256Version/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_2/design_1_wrapper.bit"
+11:50:33 INFO  : ps7_init is completed.
+11:50:33 INFO  : ps7_post_config is completed.
+11:50:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:39 INFO  : FPGA configured successfully with bitstream "C:/Users/DOUYOUZHE/Desktop/AES256Version/AAAEEESSS/AAAEEESSS.sdk/design_1_wrapper_hw_platform_2/design_1_wrapper.bit"
+11:58:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:35:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

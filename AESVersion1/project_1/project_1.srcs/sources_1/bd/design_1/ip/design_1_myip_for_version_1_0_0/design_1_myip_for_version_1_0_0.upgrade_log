@@ -1,0 +1,96 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
+| Date         : Sun Nov 15 20:10:13 2015
+| Host         : DOU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+-----------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myip_for_version_1_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_myip_for_version_1_0_0 (xilinx.com:user:myip_for_version_1:1.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Warnings
+-----------
+
+WARNING: The upgraded user parameter set contained parameters that could not be mapped on to the upgraded IP. Note that parameter names and IDs are case sensitive.
+
+
+3. Interface Information
+------------------------
+
+Detected external interface differences while upgrading IP 'design_1_myip_for_version_1_0_0'.
+
+
+-upgrade has removed interface 'S00_AXIS'
+-upgrade has removed interface 'M00_AXIS'
+-upgrade has removed interface 'M00_AXIS_RST'
+-upgrade has removed interface 'M00_AXIS_CLK'
+-upgrade has removed interface 'S00_AXIS_RST'
+-upgrade has removed interface 'S00_AXIS_CLK'
+-upgrade has added interface 'M_AXIS'
+-upgrade has added interface 'S_AXIS'
+-upgrade has added interface 'signal_clock'
+-upgrade has added interface 'signal_reset'
+
+4. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_myip_for_version_1_0_0'. These changes may impact your design.
+
+
+-upgrade has removed port 'm00_axis_tdata'
+-upgrade has removed port 'm00_axis_tstrb'
+-upgrade has removed port 'm00_axis_tlast'
+-upgrade has removed port 'm00_axis_tvalid'
+-upgrade has removed port 'm00_axis_tready'
+-upgrade has removed port 'm00_axis_aclk'
+-upgrade has removed port 'm00_axis_aresetn'
+-upgrade has removed port 's00_axis_tdata'
+-upgrade has removed port 's00_axis_tstrb'
+-upgrade has removed port 's00_axis_tlast'
+-upgrade has removed port 's00_axis_tvalid'
+-upgrade has removed port 's00_axis_tready'
+-upgrade has removed port 's00_axis_aclk'
+-upgrade has removed port 's00_axis_aresetn'
+-upgrade has added port 'ACLK'
+-upgrade has added port 'ARESETN'
+-upgrade has added port 'S_AXIS_TREADY'
+-upgrade has added port 'S_AXIS_TDATA'
+-upgrade has added port 'S_AXIS_TLAST'
+-upgrade has added port 'S_AXIS_TVALID'
+-upgrade has added port 'M_AXIS_TVALID'
+-upgrade has added port 'M_AXIS_TDATA'
+-upgrade has added port 'M_AXIS_TLAST'
+-upgrade has added port 'M_AXIS_TREADY'
+
+5. Customization warnings
+-------------------------
+
+WARNING: Upgrade target IP does not have parameter ID for 'C_M00_AXIS_TDATA_WIDTH'
+
+WARNING: Upgrade target IP does not have parameter ID for 'C_M00_AXIS_START_COUNT'
+
+WARNING: Upgrade target IP does not have parameter ID for 'C_S00_AXIS_TDATA_WIDTH'
+
+
+6. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:user:myip_for_version_1:1.0 -user_name design_1_myip_for_version_1_0_0
+set_property -dict "\
+  CONFIG.Component_Name design_1_myip_for_version_1_0_0 " [get_ips design_1_myip_for_version_1_0_0]
+
+

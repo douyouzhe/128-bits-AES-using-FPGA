@@ -1,0 +1,26 @@
+Vivado Simulator 2014.2
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L xil_defaultlib -L secureip --snapshot myip_v1_0_behav --prj c:/users/douyouzhe/desktop/aes256version/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.sim/sim_1/behav/myip_v1_0.prj xil_defaultlib.myip_v1_0 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/DOUYOUZHE/APPLICATION/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/douyouzhe/desktop/aes256version/ip_repo/myip_1.0/src/inv_s_box.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/douyouzhe/desktop/aes256version/ip_repo/myip_1.0/src/inv_shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/douyouzhe/desktop/aes256version/ip_repo/myip_1.0/src/inv_mix.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/douyouzhe/desktop/aes256version/ip_repo/myip_1.0/hdl/myip_v1_0.vhd" into library xil_defaultlib
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.inv_s_box [inv_s_box_default]
+Compiling architecture beh of entity xil_defaultlib.inv_shift [inv_shift_default]
+Compiling architecture beh of entity xil_defaultlib.inv_mix [inv_mix_default]
+Compiling architecture example of entity xil_defaultlib.myip_v1_0
+Built simulation snapshot myip_v1_0_behav

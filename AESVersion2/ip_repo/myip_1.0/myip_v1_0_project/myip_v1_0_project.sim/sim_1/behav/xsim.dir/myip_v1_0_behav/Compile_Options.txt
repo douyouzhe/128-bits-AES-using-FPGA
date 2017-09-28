@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "secureip" --snapshot "myip_v1_0_behav" --prj "c:/users/douyouzhe/desktop/aes256version/ip_repo/myip_1.0/myip_v1_0_project/myip_v1_0_project.sim/sim_1/behav/myip_v1_0.prj" "xil_defaultlib.myip_v1_0" 

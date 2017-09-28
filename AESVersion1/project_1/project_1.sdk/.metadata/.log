@@ -1,0 +1,12 @@
+!SESSION 2015-11-15 20:50:12.026 -----------------------------------------------
+eclipse.buildId=2014.2
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/DOUYOUZHE/Desktop/AESVersion1/project_1/project_1.sdk
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-15 20:53:55.615
+!MESSAGE Indexed 'AES128_bsp' (123 sources, 150 headers) in 4.72 sec: 6,223 declarations; 29,956 references; 69 unresolved inclusions; 9 syntax errors; 38 unresolved names (0.10%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-15 20:54:05.725
+!MESSAGE Indexed 'AES128' (1 sources, 33 headers) in 0.30 sec: 627 declarations; 1,258 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
